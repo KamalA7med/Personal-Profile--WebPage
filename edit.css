@@ -1,0 +1,104 @@
+body{
+     background-color: #f4f4f9;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Container{
+    width: 70%;
+    margin: auto;
+    background-color:white;
+    padding: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.Header{
+    width:50%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;   
+}
+#photo
+{
+width: 200px;
+height: 200px;
+border-radius: 100px;
+}
+.Section_Name{
+    font-weight: bolder; 
+    font-size: 30px;
+    border-bottom: 2px solid #eee ;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+.Text
+{
+    font-weight:lighter;
+    font-size: 18px;
+}
+.Section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Skill
+{
+    margin: 20px;
+    margin-left: 0px;
+  list-style: none;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.Progress-Bar{
+    pointer-events: none;
+    width: 70%;
+    margin-left: 30px;
+    accent-color: green;
+}
+.input input,#box,.Send
+{
+    width:100%;
+    margin: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+#box{    
+    height: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.Send
+{
+    background-color:#4caf50;
+    color: white;
+}
+.Send:hover
+{
+cursor: pointer;
+background-color: green;
+}
+@media screen and (max-width: 780px) {
+    .Container video{
+        width:100%
+    }
+}
+@media screen and (max-width: 400px) {
+    #photo
+{
+width: 100px;
+height: 100px;
+border-radius: 50px;
+}
+}
+
+
+
+
+
